@@ -1,0 +1,16 @@
+.image_result {
+  position: relative;
+}
+
+.image_result svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 200px;
+  width: 100%;
+  height: 100%;
+}
+
+.image_result circle {
+  opacity: 0.25;
+}
